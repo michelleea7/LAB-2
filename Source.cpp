@@ -1,13 +1,12 @@
+// hello1Function
+/*
+* hello1Function.cpp
+*
+*/
 #include <iostream>
-using namespace std; 
-
-int main()
+using namespace std;
+int hello1Function(string name1)
 {
-int num 
-
-num = 1 + 2;
-
-cout << num; 
-
-    return 0; 
+cout << "hello World " << name1 << endl;
+return 0;
 }
